@@ -38,7 +38,7 @@ Step-by-Step Guide:
 
     Replace that text with the following script:
 
-
+```
 // ==UserScript==
 // @name         OpenAI Chat Full Width Adjustment for All Messages
 // @namespace    http://tampermonkey.net/
@@ -70,6 +70,7 @@ Step-by-Step Guide:
     // Continuously adjust the width of new messages
     setInterval(adjustWidth, 500);
 })();
+```
 
 4. Save the Script:
 
